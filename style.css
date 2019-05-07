@@ -31,6 +31,12 @@ body{
     background: transparent;
 }
 
+#img-america{
+    display: inline-block;
+    float: right;
+
+}
+
 
 .navbar{
 
@@ -178,13 +184,15 @@ footer{
  }
 
  .text-footer-two nav{
-
+    width: 100%;
     font-size: 10px;
     margin: 25px 187px auto auto;
  }
 
  .text-footer-two{
     float: right;
+    display: block;
+
 }
 
 .contain-foot{
@@ -210,7 +218,7 @@ footer{
 
     height: 36px;
 
-    box-shadow: 1px 1px 5px #383838
+    box-shadow: 1px 1px 5px #383838;
     
   }
   
@@ -224,13 +232,13 @@ footer{
     border-right: 0px;
 }
 
-.button-search{
-    color: black; 
-    border-right: 1px solid rgb(202, 202, 202);
-    
+
+.button-search{    
+
     padding-right: 30px;
     width: 15%;
     float: left;
+    margin: -3.7% auto auto 85%;
 
     background: linear-gradient(to bottom, 
     #747474 50% ,
@@ -238,10 +246,17 @@ footer{
     border-radius: 1px 6px 6px 1px;
 
 
-
     height: 36px;
 
-    box-shadow: 1px 1px 5px #383838
+    box-shadow: 1px 1px 5px #383838;
+
+    flex-grow: 1;
+
+    color: white;
+
+
+
+
 
   }
   
@@ -294,3 +309,7 @@ a{
         padding-left: 1%;
         padding-right: 1%;
     }
+
+    .fa-flag-usa{
+
+        color: #bb3f4e;}
