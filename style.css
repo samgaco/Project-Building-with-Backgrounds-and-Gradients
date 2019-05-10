@@ -3,7 +3,7 @@ body{
     padding: 0 !important;
     border: 0 !important; }
 
-    
+
 .main{
     margin: 0 !important;
     padding: 0 !important;
@@ -27,9 +27,7 @@ body{
     background: transparent; }
 
 
-#img-america{
-    display: inline-block;
-    float: right; }
+#img-america{ display: inline-block;}
 
 
 .navbar{
@@ -51,6 +49,45 @@ body{
 .navbar li img{
     width: 20%;
     margin-left: 29%; }
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 7%;
+    height: 0.9em;
+    background: #f1f1f1;
+  }
+  
+
+  form.example button {
+    float: left;
+    width: 4%;
+    height: 2.2em;
+    padding: 10px;
+    background: rgb(121, 121, 121);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer; }
+
+
+  .fa-search{ width: 20%; }
+  
+
+  form.example button:hover {
+    background: #4b4b4b;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 
 .text-image{
@@ -79,9 +116,9 @@ body{
 
 
 .image-row{
-height: 100%;
-display: block;
-max-width: 100%; }
+    height: 100%;
+    display: block;
+    max-width: 100%; }
 
 
 .image-inrow{
@@ -170,14 +207,13 @@ footer{ clear: both; }
     box-shadow: 1px 1px 5px #383838; }
   
 
-  .button:hover {
+.button:hover {
     background: linear-gradient(to bottom, 
     #494949 50% ,
     #414141  50%);  }
 
 
-#searchbar{ border-right: 0px }
-
+#searchbar{ border-right: 0px; }
 
 #verse-link{
 
@@ -186,28 +222,9 @@ footer{ clear: both; }
 
 
 #verse-link:hover{ text-decoration: underline;}
-
-
-.button-search{    
-
-    padding-right: 30px;
-    width: 15%;
-    float: left;
-    margin: -3.7% auto auto 85%;
-
-    background: linear-gradient(to bottom, 
-    #747474 50% ,
-    #676767  50%);
-    border-radius: 1px 6px 6px 1px;
-
-
-    height: 36px;
-    box-shadow: 1px 1px 5px #383838;
-    flex-grow: 1;
-    color: white; }
   
 
-  .button-icon{
+.button-icon{
     color: black; 
     border-right: 1px solid rgb(202, 202, 202);
     padding-right: 30px;
